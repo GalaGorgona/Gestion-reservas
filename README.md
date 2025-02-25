@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Check-in Tours Florencia
 
-## Getting Started
+Aplicación para optimizar el proceso de check-in de tours guiados en la ciudad de Florencia.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Esta aplicación ha sido diseñada para simplificar y agilizar el proceso de check-in de los grupos turísticos en Florencia. Soluciona un problema común para las empresas de tours guiados: la gestión manual de las reservas y la distribución de turistas entre los guías disponibles. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La aplicación transforma datos de reservas en texto plano a un formato estructurado, verifica la asistencia de los participantes mediante un sistema de checkbox y distribuye automáticamente a los turistas en grupos equilibrados entre los guías disponibles.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Características principales
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Importación de datos**: Permite cargar datos de reservas en formato de texto plano.
+- **Organización automática**: Estructura y ordena las reservas de manera sistematizada.
+- **Sistema de check-in**: Función de checkbox para verificar la asistencia de cada reserva.
+- **Distribución equitativa**: Reparte automáticamente a los turistas en grupos equilibrados entre los guías disponibles.
+- **Interfaz sencilla**: Diseño minimalista con Tailwind.css que facilita su uso rápido en entornos de trabajo activos.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+2. Carga el archivo de reservas (formato de texto plano) utilizando el botón "Procesar Reservas".
+3. Verifica la asistencia de cada reserva marcando los checkboxes correspondientes.
+4. Selecciona el número de guías disponibles y asigna su nombre a cada grupo.
+5. Al marcar el checkbox correspondiente, las reservas se reparten automáticamente en grupos equilibrados para facilitar el proceso de registro a los guías.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologías utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- HTML5, CSS3, JavaScript
+- React
 
-## Deploy on Vercel
+## Contribución
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este es un proyecto pequeño desarrollado en pocas horas para solucionar una necesidad específica. Sin embargo, cualquier mejora o sugerencia es bienvenida mediante pull requests o issues.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Autor
+
+Gala Hidalgo
+
+---
+
+Desarrollado con ❤️ para mejorar la experiencia de los guías turísticos en Florencia.
